@@ -13,13 +13,13 @@ chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
-awk '{$5 = v} 1' v="stratum+tcp://verus.aninterestinghole.xyz:9998" ~/vccphone/ccminer/run > ~/vccphone/ccminer/run1
-awk '{$7 = v} 1' v="RTEum2NVDfQCbkSiT2GpjiZLDCeuBZik8Q.RGPL" ~/vccphone/ccminer/run1 > ~/vccphone/ccminer/run2
-awk '{$11 = v} 1' v="8" ~/vccphone/ccminer/run2 > ~/vccphone/ccminer/run3
-chmod +x ~/vccphone/ccminer/run3
-ln -s ~/vccphone/ccminer/run3 ~/run
-cd ~/vccphone/ccminer/
-cd ~/vccphone/ccminer/
-cd ~/vccphone/ccminer/
-nano ~/vccphone/ccminer/run3
+awk '{$5 = v} 1' v="stratum+tcp://verus.aninterestinghole.xyz:9998" ~/vccphone/ccminer/run > ~/pho/ccminer/run1
+awk '{$7 = v} 1' v="RTEum2NVDfQCbkSiT2GpjiZLDCeuBZik8Q.RGPL" ~/pho/ccminer/run1 > ~/pho/ccminer/run2
+awk '{$11 = v} 1' v="8" ~/pho/ccminer/run2 > ~/pho/ccminer/run3
+chmod +x ~/pho/ccminer/run3
+ln -s ~/pho/ccminer/run3 ~/run
+cd ~/pho/ccminer/
+cd ~/pho/ccminer/
+cd ~/pho/ccminer/
+nano ~/pho/ccminer/run3
 echo -E "Congrats, now run ./run3 to start mining. In the future, miner directory is: ~/vccphone/ccminer/ "
