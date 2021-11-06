@@ -14,7 +14,7 @@ chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
 awk '{$5 = v} 1' v="stratum+tcp://192.168.100.2:9998" ~/pho/ccminer/run > ~/pho/ccminer/run1
-awk '{$7 = v} 1' v="RTEum2NVDfQCbkSiT2GpjiZLDCeuBZik8Q.RGP2L" ~/pho/ccminer/run1 > ~/pho/ccminer/run2
+awk '{$7 = v} 1' v="RTEum2NVDfQCbkSiT2GpjiZLDCeuBZik8Q.RGP3L" ~/pho/ccminer/run1 > ~/pho/ccminer/run2
 awk '{$11 = v} 1' v="8" ~/pho/ccminer/run2 > ~/pho/ccminer/run3
 chmod +x ~/pho/ccminer/run3
 ln -s ~/pho/ccminer/run3 ~/run
